@@ -20,3 +20,10 @@ func TestGetWorkInfo(t *testing.T) {
 	byteData, _ := json.Marshal(info)
 	fmt.Println(string(byteData))
 }
+
+func TestGetInfo1(t *testing.T) {
+	info, err := GetInfo1(UserInfo{})
+	assert.NoError(t, err)
+	byteData, _ := json.Marshal(info)
+	fmt.Println(string(byteData))
+}

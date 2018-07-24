@@ -1,9 +1,9 @@
 package reflect_demo
 
 import (
-	"errors"
 	"reflect"
 	"fmt"
+	"go_demo/util"
 )
 
 type UserInfo struct {
@@ -29,6 +29,21 @@ func GetInfo(info interface{})(data interface{}, err error){
 			data = WorkInfo{}
 			return
 		}
+	}
+	return
+}
+
+func GetInfo1(info interface{})(data interface{}, err error){
+	if user, ok := info.(UserInfo); ok {
+		//s1.f()
+		//s1.g()
+		fmt.Println(util.StringifyJson(user))
+		data = UserInfo{}
+	}
+
+	if work, ok := info.(WorkInfo); ok {
+		fmt.Println(util.StringifyJson(work))
+		data = WorkInfo{}
 	}
 	return
 }

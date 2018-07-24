@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991806af-2d03-4698-8ebb-d257e810e5d8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/db_config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docx/docx.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/excel/excel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/excel/excel_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/http/http.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mongodb/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mongodb/connection/db.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/connection/db.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/connection/db_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/db.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/db_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql/model.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pdf/pdf.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reflect_demo/reflect_demo.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reflect_demo/reflect_demo_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/util/util.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nil_test.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/reflect_demo/reflect_demo.go" afterPath="$PROJECT_DIR$/reflect_demo/reflect_demo.go" />
+      <change beforePath="$PROJECT_DIR$/reflect_demo/reflect_demo_test.go" afterPath="$PROJECT_DIR$/reflect_demo/reflect_demo_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,18 +22,18 @@
       <file leaf-file-name="config.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docx.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docx.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docx/docx.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="e#14#59#0" expanded="true" />
               </folding>
@@ -55,55 +41,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/db.go">
+      <file leaf-file-name="nil_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nil_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="29" />
               <folding>
-                <element signature="e#15#101#0" expanded="true" />
+                <element signature="e#17#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/model.go">
+      <file leaf-file-name="reflect_demo_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdf.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdf/pdf.go">
+      <file leaf-file-name="reflect_demo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
-                <element signature="e#13#66#0" expanded="true" />
+                <element signature="e#22#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/connection/db.go">
+      <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="456">
+              <caret line="250" column="5" lean-forward="false" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/connection/db_test.go">
+      <file leaf-file-name="uuid_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uuid_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fmt_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fmt_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -112,34 +118,10 @@
       <file leaf-file-name="util.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/util.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
+            <state relative-caret-position="2934">
               <caret line="192" column="5" lean-forward="false" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
               <folding>
                 <element signature="e#14#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excel.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel/excel.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-              <folding>
-                <element signature="e#15#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/http.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#14#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,15 +144,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uuid.go" />
-        <option value="$PROJECT_DIR$/fmt_test.go" />
         <option value="$PROJECT_DIR$/string_test.go" />
         <option value="$PROJECT_DIR$/self_increass_reduction_test.go" />
         <option value="$PROJECT_DIR$/self_increase_reduction_test.go" />
         <option value="$PROJECT_DIR$/uuid_test.go" />
         <option value="$PROJECT_DIR$/ftp_server/ftp_demo.go" />
         <option value="$PROJECT_DIR$/sftp_server/sftp.go" />
-        <option value="$PROJECT_DIR$/reflect_demo/reflect_demo_test.go" />
-        <option value="$PROJECT_DIR$/reflect_demo/reflect_demo.go" />
         <option value="$PROJECT_DIR$/mysql/config.go" />
         <option value="$PROJECT_DIR$/db/db_config.go" />
         <option value="$PROJECT_DIR$/excel/excel_test.go" />
@@ -183,6 +162,11 @@
         <option value="$PROJECT_DIR$/pdf/pdf.go" />
         <option value="$PROJECT_DIR$/util/util.go" />
         <option value="$PROJECT_DIR$/docx/docx.go" />
+        <option value="$PROJECT_DIR$/fmt_test.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/nil_test.go" />
+        <option value="$PROJECT_DIR$/reflect_demo/reflect_demo.go" />
+        <option value="$PROJECT_DIR$/reflect_demo/reflect_demo_test.go" />
       </list>
     </option>
   </component>
@@ -213,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,14 +208,13 @@
             <path>
               <item name="go_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestCreateExcel in excel_test.go">
+  <component name="RunManager" selected="Go Test.TestGetInfo1 in reflect_demo_test.go">
     <configuration name="TestCreateExcel in excel_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go_demo" />
       <working_directory value="$PROJECT_DIR$/excel" />
@@ -265,56 +249,56 @@
       <package value="go_demo/excel" />
       <pattern value="^TestCreateExcel$" />
     </configuration>
-    <configuration name="TestFmt in fmt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestDeffer in nil_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go_demo" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="go_demo" />
-      <pattern value="^TestFmt$" />
+      <pattern value="^TestDeffer$" />
     </configuration>
-    <configuration name="TestGetInfo in reflect_demo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestGetInfo1 in reflect_demo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go_demo" />
       <working_directory value="$PROJECT_DIR$/reflect_demo" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="go_demo/reflect_demo" />
-      <pattern value="^TestGetInfo$" />
+      <pattern value="^TestGetInfo1$" />
     </configuration>
-    <configuration name="TestGetWorkInfo in reflect_demo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="go_demo" />
-      <working_directory value="$PROJECT_DIR$/reflect_demo" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_demo/reflect_demo" />
-      <pattern value="^TestGetWorkInfo$" />
-    </configuration>
-    <configuration name="TestSelfIncreaseReduction in self_increase_reduction_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestNil in nil_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go_demo" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="go_demo" />
-      <pattern value="^TestSelfIncreaseReduction$" />
+      <pattern value="^TestNil$" />
+    </configuration>
+    <configuration name="TestTemporaryPointer in nil_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="go_demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_demo" />
+      <pattern value="^TestTemporaryPointer$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestFmt in fmt_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestSelfIncreaseReduction in self_increase_reduction_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestGetInfo in reflect_demo_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestGetWorkInfo in reflect_demo_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestCreateExcel in excel_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestCreateExcel in excel_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestNil in nil_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestTemporaryPointer in nil_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestDeffer in nil_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestGetInfo1 in reflect_demo_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestCreateExcel in excel_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestGetWorkInfo in reflect_demo_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestGetInfo in reflect_demo_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestFmt in fmt_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestSelfIncreaseReduction in self_increase_reduction_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestGetInfo1 in reflect_demo_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestDeffer in nil_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestTemporaryPointer in nil_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestNil in nil_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestCreateExcel in excel_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -322,46 +306,46 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCreateExcel_in_excel_test_go - 2018.07.23 at 17h 39m 12s.xml">
-      <configuration name="TestCreateExcel in excel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDeffer_in_nil_test_go - 2018.07.24 at 14h 22m 41s.xml">
+      <configuration name="TestDeffer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 45m 36s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDeffer_in_nil_test_go - 2018.07.24 at 14h 23m 05s.xml">
+      <configuration name="TestDeffer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 46m 20s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDeffer_in_nil_test_go - 2018.07.24 at 14h 23m 52s.xml">
+      <configuration name="TestDeffer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 46m 39s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDeffer_in_nil_test_go - 2018.07.24 at 14h 24m 02s.xml">
+      <configuration name="TestDeffer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 46m 42s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGetInfo1_in_reflect_demo_test_go - 2018.07.24 at 14h 38m 07s.xml">
+      <configuration name="TestGetInfo1 in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 46m 48s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNil_in_nil_test_go - 2018.07.24 at 14h 09m 48s.xml">
+      <configuration name="TestNil in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 48m 52s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNil_in_nil_test_go - 2018.07.24 at 14h 10m 36s.xml">
+      <configuration name="TestNil in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 49m 27s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemporaryPointer_in_nil_test_go - 2018.07.24 at 14h 18m 27s.xml">
+      <configuration name="TestTemporaryPointer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 50m 45s.xml">
-      <configuration name="TestGetInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemporaryPointer_in_nil_test_go - 2018.07.24 at 14h 18m 41s.xml">
+      <configuration name="TestTemporaryPointer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetWorkInfo_in_reflect_demo_test_go - 2018.07.23 at 16h 51m 17s.xml">
-      <configuration name="TestGetWorkInfo in reflect_demo_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemporaryPointer_in_nil_test_go - 2018.07.24 at 14h 18m 57s.xml">
+      <configuration name="TestTemporaryPointer in nil_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13348041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13458356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37152034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46252677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25261998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17558886" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -389,13 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/360EntSecGroup-Skylar/excelize/sheet.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9972">
-          <caret line="564" column="48" lean-forward="false" selection-start-line="564" selection-start-column="48" selection-end-line="564" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/360EntSecGroup-Skylar/excelize/file.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -493,14 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="162" column="29" lean-forward="false" selection-start-line="156" selection-start-column="2" selection-end-line="162" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/self_increase_reduction_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -511,41 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <element signature="e#17#105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fmt_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding>
-            <element signature="e#17#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uuid_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ftp_server/ftp_demo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-          <folding>
-            <element signature="e#20#101#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,33 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#22#105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#22#60#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sftp_server/sftp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#167#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="e#12#94#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
           <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#19#67#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,36 +535,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#17#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/http/http.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
-            <element signature="e#14#48#0" expanded="true" />
+            <element signature="e#14#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel/excel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        <state relative-caret-position="1422">
+          <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
           <folding>
-            <element signature="e#15#123#0" expanded="true" />
+            <element signature="e#15#123#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/connection/db.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -672,9 +577,9 @@
     <entry file="file://$PROJECT_DIR$/mysql/db.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#15#101#0" expanded="true" />
+            <element signature="e#15#101#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,7 +587,7 @@
     <entry file="file://$PROJECT_DIR$/mysql/model.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -690,24 +595,24 @@
     <entry file="file://$PROJECT_DIR$/pdf/pdf.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#13#66#0" expanded="true" />
+            <element signature="e#13#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="2934">
           <caret line="192" column="5" lean-forward="false" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
           <folding>
             <element signature="e#14#446#0" expanded="true" />
@@ -717,11 +622,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docx/docx.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="e#14#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uuid_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fmt_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="250" column="5" lean-forward="false" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nil_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="29" />
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#22#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflect_demo/reflect_demo_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
