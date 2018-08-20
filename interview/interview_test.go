@@ -8,6 +8,8 @@ import (
 )
 
 // 测试interface的nil值:interface顶层由type和data组成，只有当type和data都是nil的时候，整个interface才是nil
+// interface空接口有两种：直接声明的：var tmp interface{}，这样的tmp是为nil的
+// 像var f interface{} = s并不为nil,type为nil，但是data已经被赋值了
 // 答案：no
 func TestInterfaceNil(t *testing.T) {
 	var s []int = nil
@@ -17,8 +19,28 @@ func TestInterfaceNil(t *testing.T) {
 	} else {
 		fmt.Println("no")
 	}
+	var tmp interface{}
+	fmt.Println(tmp == nil)
+
+	// 所有new的对象，返回的是指针
+	//list := new([]int)
+	//list = append(list, 1)
+	//fmt.Println(list)
+
 }
 
+func Foo(x interface{}) {
+	if x == nil {
+		fmt.Println("empty interface")
+		return
+	}
+	fmt.Println("non-empty interface")
+}
+// 答案：non-empty interface
+func TestInterfaceNil2(t *testing.T){
+	var x *int = nil
+	Foo(x)
+}
 // 测试defer和panic的发生顺序
 /**
 答案：
@@ -190,4 +212,114 @@ func TestSelect(t *testing.T){
 	case value := <- string_chan:
 		panic(value)
 	}
+}
+
+
+// 测试make默认赋值
+/**
+make初始化的时候就有默认值，对于int类型默认值为0
+答案：[0 0 0 0 0 1 2 3]
+ */
+func TestMakeDefaultValue(t *testing.T){
+	// 表示初始化长度为5的int类型slice
+	s := make([]int, 5)
+	s = append(s, 1,2,3)
+	fmt.Println(s)
+}
+
+// map并不是线程安全的，并发读取
+// 并不测试什么逻辑，只是强调map的读写都需要并发
+type UserAges struct {
+	ages map[string]int
+	sync.Mutex
+}
+func (ua *UserAges) Add(name string, age int) {
+	ua.Lock()
+	defer ua.Unlock()
+	ua.ages[name] = age
+}
+
+// 这个方法是错误的写法
+func (ua *UserAges) GetError(name string) int {
+	if age, ok := ua.ages[name]; ok {
+		return age
+	}
+	return -1
+}
+
+func (ua *UserAges) GetRight(name string) int {
+	ua.Lock()
+	defer ua.Unlock()
+	if age, ok := ua.ages[name]; ok {
+		return age
+	}
+	return -1
+}
+
+type Person interface {
+	Speak(string)string
+}
+type Student struct {
+
+}
+func(stu *Student) Speak(str string)(talk string){
+	if str == "hello" {
+		talk = "katy"
+	}else {
+		talk = "hi"
+	}
+	return
+}
+
+func TestSpeak(t *testing.T){
+	// 编译不通过
+	//var peo Person = Student{}
+	// 编译通过
+	var p Person = &Student{}
+	str := "qq"
+	fmt.Println(p.Speak(str))
+}
+
+// 测试append，第二个参数应该是单个元素
+func TestAppend(t *testing.T){
+	s1 := []int{1, 2, 3}
+	s2 := []int{4, 5}
+	// 错误写法
+	//s1 = append(s1, s2)
+	// 正确写法
+	s1 = append(s1, s2...)
+	fmt.Println(s1)
+}
+
+const (
+	x = iota
+	y
+	z = "zz"
+	k
+	p = iota
+)
+
+// 测试itoa
+// 答案：0 1 zz zz 4
+func TestItoa(t *testing.T){
+	fmt.Println(x,y,z,k,p)
+}
+
+// 测试defer, panic, recover
+// 答案：defer panic
+// 解析：出现panic的时候，会先按照defer的先进后出顺序执行defer，最后才会执行panic，panic仅有最后一个可以被revover捕获
+func TestDeferPanicRecover(t *testing.T){
+	defer func() {
+		if err:=recover();err!=nil{
+			fmt.Println(err)
+		}else {
+			fmt.Println("fatal")
+		}
+	}()
+
+	defer func() {
+		panic("defer panic")
+	}()
+	panic("panic")
+
 }
